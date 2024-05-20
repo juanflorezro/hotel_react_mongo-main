@@ -20,7 +20,7 @@ const HotelProvider = ({children}) => {
     }
 
     const getHotel = async (id) => {
-        await axios.get(`https://bkhoteles.juanflow04flore.repl.co/publicaciones/${ id }`)
+        await axios.get(`https://b23b48dc-fd4c-4332-8e69-5acdc3fda9f1-00-2abgkar42u9y2.sisko.replit.dev/publicaciones/${ id }`)
         .then(function (response) {
             // manejar respuesta exitosa
             response.data.comentarios = response.data.comentarios.reverse();

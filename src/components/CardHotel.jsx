@@ -10,7 +10,7 @@ export default function CardHotel(){
     }, []);
 
     function getHotels(){
-        fetch('https://bkhoteles.juanflow04flore.repl.co/publicaciones')
+        fetch('https://b23b48dc-fd4c-4332-8e69-5acdc3fda9f1-00-2abgkar42u9y2.sisko.replit.dev/publicaciones')
             .then(response => response.json())
             .then(data => setHotels(data));
     }

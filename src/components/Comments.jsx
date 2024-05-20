@@ -13,7 +13,7 @@ export default function Comments(comentarios) {
     }, [comentarios]);
     
     async function handleLike(comment_id){
-        await axios.post(`https://bkhoteles.juanflow04flore.repl.co/publicaciones/${ id }/comentario/${ comment_id }/like`, {
+        await axios.post(`https://b23b48dc-fd4c-4332-8e69-5acdc3fda9f1-00-2abgkar42u9y2.sisko.replit.dev/publicaciones/${ id }/comentario/${ comment_id }/like`, {
             usuario: {
                 usuario: user,
                 like: 1,
@@ -31,7 +31,7 @@ export default function Comments(comentarios) {
     }
 
     async function handleDislike(comment_id){
-        await axios.post(`https://bkhoteles.juanflow04flore.repl.co/publicaciones/${ id }/comentario/${ comment_id }/like`, {
+        await axios.post(`https://b23b48dc-fd4c-4332-8e69-5acdc3fda9f1-00-2abgkar42u9y2.sisko.replit.dev/publicaciones/${ id }/comentario/${ comment_id }/like`, {
             usuario: {
                 usuario: user,
                 like: 0,
