@@ -72,7 +72,7 @@ export default function Hotel() {
     const saveComment = async (e) => {
         e.preventDefault();
 
-        await axios.post(`https://bkhoteles.juanflow04flore.repl.co/publicaciones/${ id }/comentarios`, {
+        await axios.post(`https://b23b48dc-fd4c-4332-8e69-5acdc3fda9f1-00-2abgkar42u9y2.sisko.replit.dev/publicaciones/${ id }/comentarios`, {
             nombre: localStorage.getItem('user'),
             comentario: comment
         }).then(function (response) {
